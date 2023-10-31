@@ -1,0 +1,20 @@
+theme = "catppuccin_frappe"
+
+[editor]
+line-number = "relative"
+mouse = false
+shell = ["zsh", "-c"]
+bufferline = "multiple"
+ 
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "block"
+
+[editor.statusline]
+mode.normal = "NOR"
+mode.insert = "INS"
+mode.select = "VIS"
+
+[editor.lsp]
+display-messages = true
