@@ -1,0 +1,2 @@
+-- Put any addtional Luasnip options here!
+-- require("snippets.tex.utils.init")
