@@ -5,7 +5,7 @@
 add_newline = false
 
 format = '''
-$username$hostname$shell$directory$git_branch$character
+$username$hostname$shell$directory$git_branch$git_status$git_commit$character
 '''
 
 [shell]
