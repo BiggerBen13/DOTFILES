@@ -1,0 +1,14 @@
+theme = "Kanagawa Dragon"
+
+font-family = "Iosevka"
+font-size = 18
+
+command = "/bin/bash --login -c 'nu --login --interactive'"
+
+macos-option-as-alt = true
+
+window-padding-x = 50
+window-padding-y = 50
+
+macos-non-native-fullscreen = "visible-menu"
+
