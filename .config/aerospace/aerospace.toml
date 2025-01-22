@@ -4,8 +4,7 @@
 # You can use it to add commands that run after login to macOS user session.
 # 'start-at-login' needs to be 'true' for 'after-login-command' to work
 # Available commands: https://nikitabobko.github.io/AeroSpace/commands
-after-login-command = [
-]
+after-login-command = []
 
 # You can use it to add commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
@@ -16,7 +15,7 @@ after-startup-command = [
 ]
 
 # Start AeroSpace at login
-start-at-login = false
+start-at-login = true
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -127,9 +126,11 @@ alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
 alt-4 = 'workspace 4'
 alt-5 = 'workspace 5'
-alt-m = 'workspace messages' # In your config, you can drop workspace bindings that you don't need
+alt-m = 'workspace messages'       # In your config, you can drop workspace bindings that you don't need
 alt-b = 'workspace browsers'
 alt-t = 'workspace music'
+alt-n = 'workspace notes'
+alt-space = 'workspace scratchpad'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -138,6 +139,7 @@ alt-shift-3 = 'move-node-to-workspace 3'
 alt-shift-4 = 'move-node-to-workspace 4'
 alt-shift-5 = 'move-node-to-workspace 5'
 alt-shift-m = 'move-node-to-workspace messages'
+alt-shift-n = 'move-node-to-workspace notes'
 alt-shift-b = 'move-node-to-workspace browsers'
 alt-shift-t = 'move-node-to-workspace music'
 
@@ -179,6 +181,7 @@ alt-enter = ['exec-and-forget open -a Kitty', 'mode main']
 1 = 'main'
 2 = 'main'
 3 = 'main'
+notes = 'main'
 4 = 'secondary'
 5 = 'secondary'
 messages = 'secondary'
@@ -187,12 +190,24 @@ music = 'secondary'
 
 [[on-window-detected]]
 if.app-id = "com.hnc.Discord"
-if.during-aerospace-startup = true
+# if.during-aerospace-startup = true
+check-further-callbacks = true
+run = 'move-node-to-workspace messages'
+
+[[on-window-detected]]
+if.app-id = "com.appe.MobileSMS"
+# if.during-aerospace-startup = true
 check-further-callbacks = true
 run = 'move-node-to-workspace messages'
 
 [[on-window-detected]]
 if.app-id = "org.mozilla.firefox"
-if.during-aerospace-startup = true
+# if.during-aerospace-startup = true
+check-further-callbacks = true
+run = 'move-node-to-workspace browsers'
+
+[[on-window-detected]]
+if.app-id = "md.obsidian"
+# if.during-aerospace-startup = true
 check-further-callbacks = true
 run = 'move-node-to-workspace browsers'
