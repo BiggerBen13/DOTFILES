@@ -12,7 +12,7 @@ export def get-project-dirs [] {
             $in |
             path expand |
             ls $in |
-            where type == dir
+            where type =~ "(dir|symlink)" 
             | get name
             | each {||
                 $'($p)/($in | path relative-to $p)'

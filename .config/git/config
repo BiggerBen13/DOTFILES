@@ -1,3 +1,5 @@
 [user]
 	email = ben@kirschniak.de
 	name = Ben Kirschniak
+[core]
+	pager = nvim -RMb
