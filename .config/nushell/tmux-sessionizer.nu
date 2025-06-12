@@ -17,7 +17,7 @@ export def get-project-dirs [] {
             | each {||
                 $'($p)/($in | path relative-to $p)'
             }
-        } | flatten) ++ ($env.CUSTOM_DIRS)
+        } | flatten) ++ ($env.CUSTOM_PROJECTS)
     return $out
 }
 

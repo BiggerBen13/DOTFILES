@@ -1,4 +1,4 @@
-$env.PROMPT_COMMAND = {|| 
+def prompt [] {
     let dir = match (do -i { $env.PWD | path relative-to $nu.home-path }) {
         null => $env.PWD
         '' => '~'
@@ -12,7 +12,7 @@ $env.PROMPT_COMMAND = {||
     $path_segment | str replace --all (char path_sep) $"($separator_color)(char path_sep)($path_color)"
 }
 
-$env.CUSTOM_DIRS = [ ~/nix, ~/notes, ~/zmk-config ]
-$env.PROJECT_DIRS = [ ~/projects, ~/.config , ~/notes, ~/projects/rust_exercises ]
+$env.PROMPT_COMMAND = {|| prompt }
 
-$env.ZK_NOTEBOOK_DIR = "/Volumes/NOTES/zk"
+$env.CUSTOM_PROJECTS = [ ~/nix, ~/notes, ~/zmk-config ]
+$env.PROJECT_DIRS = [ ~/projects, ~/.config, ~/github ]
