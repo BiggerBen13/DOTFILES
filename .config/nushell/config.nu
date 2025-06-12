@@ -11,7 +11,6 @@ let carapace_completer = {|spans|
 let multiple_completers = {|spans|}
 
 $env.config = {
-    edit_mode: vi
     completions: {
         external: {
             enable: true
