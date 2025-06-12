@@ -1,14 +1,21 @@
-theme = "GruvboxDark"
 
-font-family = "Iosevka"
+# appearance
+theme = "Oxocarbon"
+
+font-family = "Iosevka Nerd Font Mono"
 font-size = 18
 
-command = "/bin/bash --login -c 'nu --login --interactive'"
-
-macos-option-as-alt = true
-
+## Window Options
 window-padding-x = 50
 window-padding-y = 50
 
+background-opacity = 0.8
+background-blur = 20
+
+# startup-prompt
+# command = "/bin/bash --login -c 'nu --login --interactive'"
+
+# plattform specific
+macos-option-as-alt = true
 macos-non-native-fullscreen = "visible-menu"
 
