@@ -1,6 +1,7 @@
+# Ghostty Config Documentation: https://ghostty.org/docs/config/reference
 
 # appearance
-theme = "Oxocarbon"
+theme = "GruvboxDark"
 
 font-family = "Iosevka Nerd Font Mono"
 font-size = 18
@@ -8,9 +9,15 @@ font-size = 18
 ## Window Options
 window-padding-x = 50
 window-padding-y = 50
+window-subtitle = false
 
-background-opacity = 0.8
+# background-opacity = 0.7
 background-blur = 20
+
+confirm-close-surface = false
+
+# Shell integration
+shell-integration = none
 
 # startup-prompt
 # command = "/bin/bash --login -c 'nu --login --interactive'"
