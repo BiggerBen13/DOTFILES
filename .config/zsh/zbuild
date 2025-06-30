@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+FILES=($(find $ZDOTDIR/ -not -name "*.zwc" -not -name ".*" -mindepth 1))
+
+for FILE in $FILES; do
+    if [ ! -e "$FILE.zwc" ]; then
+        printf "\033[1;93m%s\n\033[0;0;" "Compiling $FILE"
+        zcompile $FILE
+    fi
+done

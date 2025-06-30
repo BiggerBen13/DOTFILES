@@ -1,0 +1,33 @@
+#!/bin/zsh
+
+if (( $+commands[nvim] )); then
+    if [ ! -n "$SSH_CONNECTION" ]; then
+        export EDITOR=nvim
+        alias "vim"="nvim"
+    fi
+fi
+
+# only enable <C-t> and <C-a> if tmux and fzf are installed 
+if (( $+commands[fzf] && $+commands[tmux] )); then
+    # Tmux-Sessionizer + Tmux-Attach Keybindings
+    bindkey -s "\C-t" "tmux-sessionizer\n"
+    bindkey -s "\C-a" "tmux-attach\n"
+fi
+
+# Use carapace completion if available
+if (( $+commands[carapace] )); then
+    export CARAPACE_BRIDGES='zsh,fish,bash' # optional
+    zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
+    source <(carapace _carapace)
+fi
+
+# Use eza if available
+if (( $+commands[eza] )); then
+    alias ls=eza
+fi
+
+# Use starship if available
+if (( $+commands[starship] )); then
+    # Initializes starship
+    eval "$(starship init zsh)"
+fi
