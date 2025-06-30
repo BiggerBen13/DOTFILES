@@ -1,0 +1,58 @@
+# https://starship.rs/config <- the starship-rs documentation
+
+format = """
+$directory\
+$git_branch\
+$python\
+$line_break\
+$username\
+$hostname\
+$character"""
+
+
+add_newline = false
+
+[username]
+format = '[$user]($style)@'
+show_always = true
+style_user = 'bold blue'
+
+[hostname]
+ssh_only = false
+style = 'red'
+format = '[$hostname]($style)'
+
+[directory]
+style = "green"
+
+[character]
+success_symbol = "[>](purple)"
+error_symbol = "[>](red)"
+vimcmd_symbol = "[<](green)"
+
+[git_branch]
+format = "in [$branch]($style)"
+style = "bright-black"
+
+[git_status]
+format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
+style = "cyan"
+conflicted = "​"
+untracked = "​"
+modified = "​"
+staged = "​"
+renamed = "​"
+deleted = "​"
+stashed = "≡"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bright-black"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "yellow"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "bright-black"
