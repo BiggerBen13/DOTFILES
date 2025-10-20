@@ -9,7 +9,12 @@ alias ".."="cd .."
 alias "..."="cd ../.."
 alias "3.."="cd ../../.."
 
+alias "proj"="cd $HOME/projects"
+
 autoload -Uz compinit
 compinit
 
 source "$ZDOTDIR/zconditionals"
+source "$ZDOTDIR/zprompt"
+
+task

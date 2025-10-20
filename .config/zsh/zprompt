@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+autoload -U colors && colors
+
+display_exit_code () {
+    exit_code=$1
+    if (( exit_code != 0 )); then
+        print "%{${reset_color}${fg[red]}%}[$exit_code]%{${reset_color}%} "
+    fi
+}
+
+setopt promptsubst
+
+export RPROMPT='%*'
+export PROMPT='%{${fg[green]}%}%n%{${reset_color}%}@%{${fg[yellow]}%}%m%{${reset_color}%} $(display_exit_code ${?})> '

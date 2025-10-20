@@ -3,7 +3,7 @@
 if (( $+commands[nvim] )); then
     if [ ! -n "$SSH_CONNECTION" ]; then
         export EDITOR=nvim
-        alias "vim"="nvim"
+        # alias "vim"="nvim"
     fi
 fi
 
@@ -15,19 +15,19 @@ if (( $+commands[fzf] && $+commands[tmux] )); then
 fi
 
 # Use carapace completion if available
-if (( $+commands[carapace] )); then
-    export CARAPACE_BRIDGES='zsh,fish,bash' # optional
-    zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
-    source <(carapace _carapace)
-fi
+# if (( $+commands[carapace] )); then
+#     export CARAPACE_BRIDGES='zsh,fish,bash' # optional
+#     zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
+#     source <(carapace _carapace)
+# fi
 
 # Use eza if available
-if (( $+commands[eza] )); then
-    alias ls=eza
-fi
+# if (( $+commands[eza] )); then
+#     alias ls=eza
+# fi
 
 # Use starship if available
-if (( $+commands[starship] )); then
-    # Initializes starship
-    eval "$(starship init zsh)"
-fi
+# if (( $+commands[starship] )); then
+#     # Initializes starship
+#     eval "$(starship init zsh)"
+# fi

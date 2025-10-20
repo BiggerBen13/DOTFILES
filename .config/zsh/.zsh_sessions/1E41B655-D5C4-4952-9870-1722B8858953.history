@@ -1,0 +1,1006 @@
+man 2 sockaddr
+man sockaddr_storage
+man sockaddr
+ls
+cmake ..
+make
+./src/cpoll
+make
+./src/cpoll
+lldb src/cpoll
+make
+./src/cpoll
+mkdir amhello
+cd amhello
+ls
+mkdir src
+touch README src/main.c Makefile.am src/Makefile.am configure.ac
+nvim
+nvim README
+nvim src/Makefile.am
+nvim Makefile.am
+autoreconf --install
+brew install automake autoconfig
+brew install autotools
+brew info atool
+nvim configure.ac
+brew reinstall autoconf
+autoreconf --help
+autoreconf --install
+brew install automake
+autoreconf --install
+ls
+nvim
+autoreconf --install
+brew install libtool
+nvim
+autoreconf --install
+nvim
+autoreconf --install
+ls
+rm -r ./compile ./configure ./config.h.in install-sh Makefile.in missing depcomp aclocal.m4
+ls
+rm -r configure
+ls
+rm ./configure
+./configure\~
+ls
+file configure\~
+rm -r configure\~
+ls
+autoreconf --install
+ls
+./configure --help
+CC=clang ./configure
+ls
+nvim config.h
+ls
+nvim README
+make distcheck
+ls
+ls src
+cat src/Makefile
+nvim src/Makefile
+info Automake
+brew install info]
+brew intall info
+brew install info
+brew info inform
+brew info bdinfo
+ls
+./configure
+make help
+make
+l
+ls
+make all
+ls src
+./ src/hello
+./src/hello
+nvimtmux-sessionizer
+motmux-sessionizer
+tmux-sessionizer
+nvim hello.hs
+ghc
+nvim
+brew install openscad
+nvim
+touch Html.hs
+nvim Html.hs
+nvim
+touch test.mu
+nvim test.mu
+nvim
+touch Parser.hs
+nvim Parser.hs
+mv Parser.hs Markup.hs
+nvim Markup.hs
+runghc hello.hs
+nvim Html.hs
+runghc hello.hs
+w
+nvim
+touch number_of_people_aware_of_a_secret.c
+nvim number_of_people_aware_of_a_secret.c
+nvim
+./build
+nvim
+clear
+nvim
+ls
+nvim mandelbrot.c
+nvim
+ls
+touch Makefile
+ls
+nvim Makefile
+bear -- make all
+ls
+nvim
+make all
+nvim
+ghci
+ghcup
+ghci -elp-
+ghci --help
+cobol
+ghcup tui
+cabal init
+ls
+nvim
+ghcup
+ghcup tui
+nivm
+nvim
+rm -r *
+cabal init
+nvim
+nivm
+nvim
+rm -r *
+cabal init
+nvim
+cabal run
+nvim
+cabal run
+cabal run -- hello world
+cabal build 
+ls
+ls dist-newstyle/build/aarch64-osx/ghc-9.6.7/haskell-test-0.1.0.0/x/haskell-test/build/haskell-test/haskell-test
+file dist-newstyle/build/aarch64-osx/ghc-9.6.7/haskell-test-0.1.0.0/x/haskell-test/build/haskell-test/haskell-test
+./dist-newstyle/build/aarch64-osx/ghc-9.6.7/haskell-test-0.1.0.0/x/haskell-test/build/haskell-test/haskell-test hello world how are you
+nvim
+ghc --help
+ghc -C app/Main.hs
+ghc-9.4.8 -C app/Main.hs
+ghc --enable-unregistered -C app/Main.hs
+ghc --show-options | less
+ghci
+nvim
+nvim
+ls
+cd ..
+cd haskell-tutorial
+ls
+nvim
+ls
+ls
+cd ..
+ls
+cd haskell-blog-generator
+nvim
+ghci
+hls
+hls
+haskell-language-server-9.12.2
+kak
+kak
+brew install neovide
+cargo install --locked neovide 
+neovide
+tmux-sessionizer
+ls
+git init
+git add cargo.toml input.txt src
+ls
+clear
+git status
+git add Cargo.toml
+git add .gitignore
+ls
+git commit -m "initial commit"
+nvim
+tmux-sessionizer
+man math
+./build
+ls
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./build
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+echo $?
+./mandelbrot
+./build
+./mandelbrot
+lldb mandelbrot
+lldb mandelbrot
+./build
+ls
+./mandelbrot
+./mandelbrot
+./mandelbrot
+./build
+./mandelbrot
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+clear
+./mandelbrot
+clear
+./build
+./mandelbrot
+objdump -d mandelbrot
+objdump -d mandelbrot | nvim
+man clang
+clear
+./build
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+build
+./build
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+man fopen
+man stdio
+man fwrite
+./build
+man fwrite
+./mandelbrot
+ls
+./mandelbrot
+./build
+./mandelbrot
+ls
+./mandelbrot
+ls
+./build
+./mandelbrot
+ls
+open mandelbrot
+open mandelbrot.ppm
+./build
+./mandelbrot
+ls
+file mandelbrot.ppm
+open mandelbrot
+open mandelbrot.ppm
+nvim mandelbrot.ppm
+./build
+./mandelbrot
+open mandelbrot.ppm
+nvim mandelbrot.ppm
+lldb mandelbrot
+xxd mandelbrot.ppm
+xxd mandelbrot.ppm | nvim
+./build
+./mandelbrot
+ls
+nvim mandelbrot.ppm
+man size_t
+man stdint
+man int
+./build
+./mandelbrot
+nvim mandelbrot.ppm
+./build
+./mandelbrot
+nvim mandelbrot.ppm
+xxd mandelbrot.ppm
+q
+\:q
+lldb mandelbrot
+./build
+./mandelbrot
+clear
+open mandelbrot.ppm
+./build
+./mandelbrot
+ls
+opem mandelbrot.ppm
+open mandelbrot.ppm
+./build
+./mandelbrot
+./build
+./mandelbrot
+./build
+./mandelbrot
+open mandelbrot.ppm
+nvim build
+brew install sdl3
+nvim
+man thread
+man thread.h
+man mutex
+man atomic
+man stdatomic
+ls
+ls
+make
+make all
+find src -maxdepth 1 -mindepth 1 -name "*.c"
+make all
+make all
+make all
+make all
+make all
+make all
+make all
+make all
+make all
+make all
+make all
+ls
+make all
+make all
+make all
+make all
+ls
+mkdir dirs
+ls
+rm -r dirs
+make dirs
+ls
+ls build
+rm -r build
+make dirs
+make dirs
+ls
+make dirs
+make all
+ls
+cargo test
+cargo test
+cargo run
+cd buidler
+cd builder
+cargo test
+cargo t
+cargo t
+cargo t
+cargo expand
+cargo expand
+cargo test
+vim main.c
+vim
+brew install vim
+ls
+nvim main.c
+nvim
+gcc
+which gcc
+ls /usr/bin/gcc
+ls -a /usr/bin/gcc
+ls -l /usr/bin/gcc
+cat /usr/bin/gcc
+nvim
+source ~/.config/tmux/tmux.conf
+nvim
+nvim
+make all
+make run
+nvim
+nvim main.c
+cd ..
+rasm2 --help
+llvm-objdump build/bin/kernel.elf
+llvm-objdump -d build/bin/kernel.elf
+tmux-attach
+llvm-objdump -d build/bin/kernel.elf
+make compression
+./compression -in file
+while [ true ]; do\
+./compile.sh word-printer.c word-printer\
+fi
+while [ true ]; do\
+./compile.sh word-printer.c word-printer\
+done
+word-printer.c word-printer
+./compile word-printer.c word-printer
+ls
+./compile.sh word-printer.c word-printer
+./compile.sh word-printer.c word-printer
+./word-printer
+./compile.sh word-printer.c word-printer
+./word-printer
+man error
+man stdio
+./word-printer
+./compile.sh word-printer.c word-printer
+./compile.sh word-printer.c word-printer
+./word-printer
+./word-printer file
+./compile.sh word-printer.c word-printer
+./word-printer file
+./word-printer word-printer.c
+cat /etc/services
+man fd_t
+man filedesc
+gtty
+cat "meow " >> $(gtty)
+echo "meow " >> $(gtty)
+echo "meow" >> $(gtty)
+echo meow >> /dev/stderr
+man open
+man read
+man read(5)
+man read 5
+man fread
+man read
+man open 2
+nvim
+make compression
+./compression
+./compression -in compression
+lldb compression
+nvim compression.c
+./compression -in compression
+make compression
+./compression
+./compression -in test -out test_compressed
+lldb compression
+ls
+nvim
+make compression
+./compression
+./compression -in compression
+nvim
+make compression
+./compression -in compression
+nvim compression.c
+./compression -in compression -out compressed_compression
+nvim
+./compression -ints
+nvim
+make compression
+./compression
+./compression -in
+./compression -out
+nvim
+nvim
+make compression
+./compression -out compressed_compression
+./compression -out compressed_compression -in compression
+nvim
+nvim
+make run
+make compression
+./compression -in compression -out compressed-compression
+ls
+nvim
+nvim
+cd keyboards/zsa/moonlander/keymaps/biggerben13
+ls
+nvim keymap.c
+ls
+ls
+cd ..
+ls
+cd biggerben13
+ls
+qmk compile -kb zsa/moonlander -km 
+qmk compile -kb zsa/moonlander -km biggerben13 --compiledb
+ls
+nvim
+ls
+ls ..
+ls ../default
+nvim config.h
+ls
+cd ..
+ls
+cd ..
+ls
+nvim keyboard.json
+ls
+nvim matrix.c
+ls
+nvim rules.mk
+ls
+nvim readme.md
+ollama 
+ollama run list
+ollama pull
+ollama list
+killall aerospace
+killall Aerospace
+killall AeroSpace
+ls
+rm -r kernel.elf
+ls build
+nvim src/boot.s
+make all
+make all
+make all
+llvm-objdump build/bin/kernel.elf
+llvm-objdump -d build/bin/kernel.elf
+\:q
+nvim vm.sh
+nvim Makefile
+nvim
+make run
+make run
+make run
+nvim
+make run
+rm ~/.local/stmux-attach
+rm ~/.local/state/nvim/lsp.log
+make run
+make run
+make run
+make run
+make run
+make run
+make all
+make run
+ls
+ls
+ls -l build/bin/kernel.elf
+ld.lld -strip build/bin/kernel.elf
+ld.lld --strip build/bin/kernel.elf
+mmap
+man mmap
+man mman
+man mmap
+man getpagesize
+man pagesize
+pagesize
+man mmap
+ls
+nvim src/boot.s
+clear
+brew --prefix
+cat ~/.config/zsh/zconditionals
+which llvm-objdump
+make run
+nvim
+make all
+make all
+make run
+touch log.h
+nvim log.h
+make log.h
+make run
+nvim
+make run
+cd builder
+ls
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+ls
+cd ..
+cargo new vec-test
+cd vec-test
+mv src/main.rs src/lib.rs
+nvim Cargo.toml
+nvim
+tmux-sessionizer
+nvim
+cd ..
+rm -r vec-test
+cd wgpu-tut
+nvim
+cargo build
+cargo run
+cargo run
+cargo run
+man ncurses
+man time
+man stdtime
+man time.h
+man time_t
+man clock
+nvim start
+./start
+tmux-sessionizer
+tmux-sessionizer
+tmux-sessionizer
+cargo add mio
+cargo add mio --features net os-poll
+cargo add mio --features os-poll/net
+cargo add mio --features os-poll os-poll/net
+cargo add mio --features mio/os-poll os-poll/net
+cargo add mio --features os-poll --features net
+nvim
+ls
+nvim
+nvim
+ls
+cd src
+ls
+nviom
+nvim
+man libcpp
+clear
+nvim
+man make
+make run
+nvim
+make run
+nvim
+cd ..
+cd modern-c
+ls
+mkdir compression
+rm -r kakoune-lsp-v18.2.0-aarch64-apple-darwin.tar.gz MIT COPYING README.asciidoc UNLICENSE
+ls
+rm -r compression
+touch compression.c
+nvim compresstion.c
+nvim
+cd Step1
+ls
+nvim CMakeLists.txt
+pwd
+cd ..
+ls
+cd Step0
+cd Step2
+ls
+nivm Exercise1.cmake
+nvim Exercise1.cmake
+cd ..
+cd Step0
+nvim
+cd Step1
+pwd
+nvim CMakeLists.txt
+ls
+nvim CMakeLists.txt
+nvim CMakeLists.txt
+cd build
+cmake ..
+cd ..
+nvim CMakeLists.txt
+cd build
+cmake ..
+cd ..
+nvim
+cmake ..
+cd build
+cmake ..
+rm -r *
+cmake ..
+ls
+make
+ls Tutorial
+nvim
+ls
+ls
+cd ..
+ls
+cd Tutorial
+ls
+mv TutorialConfig.h.in ..
+cd ..
+ls
+ls
+nvim CMakeLists.txt
+build
+ls
+cd build
+ls
+rm -r *
+cmake ..
+make
+ls
+./Tutorial
+./Tutorial 5
+./Tutorial 3
+./Tutorial -1
+nvim
+ls
+cd ..
+ls
+cd MathFunctions
+ls
+nvim CMakeLists.txt
+cd ..
+ls
+nvim CMakeLists.txt
+cd ..
+ls
+rm -r *
+cp -r ~/gits/CMake/Help/guide/tutorial/Step* .
+ls
+cd step1
+ls
+nvim
+cd ..
+cd step4
+ls
+nvim
+man lldb
+open mandelbrot.ppm
+nvim mandelbrot.ppm
+xxd
+xxd -help
+xxd -d mandelbrot.ppm
+xxd -h
+xxd -d -g 1 mandelbrot.ppm
+xxd -g 1 mandelbrot.ppm
+./build && ./mandelbrot
+clear
+ls
+nvim build
+clang src/boot.s --target=riscv32-unknown-elf -o test
+clang src/boot.s --target=riscv32-unknown-elf -o -c test
+clang src/boot.s --target=riscv32-unknown-elf -c -o test
+nivm
+nvim
+nvim
+clang src/boot.s --target=riscv32-unknown-elf -c -o test
+nvim
+clang src/boot.s --target=riscv32-unknown-elf -c -o test
+llvm-objdump test
+ls
+llvm-objdump -D test 
+nvim src/boot.s
+nvim
+ldd 
+lld
+lld 
+lld --help
+man ld
+lld -Tlinker.ld -Map=kernel.map
+lld -Tlinker.ld -Map=kernel.map test
+ld.lld -Tlinker.ld -Map=kernel.map test
+ld.lld -Tkernel.ld -Map=kernel.map test
+nvim
+ld.lld -Tkernel.ld -Map=kernel.map test
+nvim
+make all
+nvim Makefile
+make all
+nvim
+make all
+nvim Makefile
+make all
+nvim
+make all
+nvim Makefile
+make all
+ls
+ls src
+file src/boot.o
+nvim
+make dirs
+make all
+nvim
+make all
+nvim Makefile
+make run
+ls
+nvim
+nvim
+clangd --version
+which clangd
+ls $(brew --prefix)/opt/llvm/bin
+nvim ~/.config/nvim/lsp/clangd.lua
+nvim
+nvim
+nvim
+nvim
+nvim
+clang --version
+cd ~/.config/nvim/lsp
+ls
+nvim clangd.lua
+cd /Library/Audio/Plug-Ins/HAL
+ls
+sudo killall -9 coreaudiod
+ls
+nvim
+mkdir projects/c-lib
+cd projects/c-lib
+ls
+nvim
+touch arena.c
+nvim arena.c
+proj
+mkdir multiprocessural_programming
+cd multiprocessural_programming
+touch Cargo.toml
+cargo new dining_philosophers
+nvim Cargo.toml
+cargo new dining_philosophers
+ls
+rm -r dining_philosophers
+cargo new dining_philosophers
+nvim
+cargo add rand
+nvim
+cd ..
+cd ..
+ls
+proj
+ls
+mv multiprocessural_programming multiprocessural_programming-rs
+mkdir multiprocessural_programming-c
+cd multiprocessural_programming-
+cd multiprocessural_programming-c
+touch Makefile
+nvim Makefile
+touch philosopher.c
+nvim philosopher.c
+make philosopher
+ls
+./philosopher
+nvim philosopher.c
+nvim philosopher
+nvim philosopher.c
+man pthread
+nvim philosopher
+nvim philosopher.c
+cd ..
+ls
+cd c-lib
+ls
+touch random.h
+nvim random.h
+tmux-sessionizer
+proj
+cargo new concurrent-rust
+tmux-sessionizer
+cd ~/gits
+git clone https://github.com/gunnarmorling/1brc
+cd 1brc
+./mvnw clean verify
+./create_measurements.sh 1000000000
+ls
+file measurements.txt
+mv measurements.txt ~/projects/1bilrows-c
+clear
+nvim
+e ~/.config/tmux/tmux.conf
+nvim ~/.config/tmux/tmux.conf
+clear
+cleaer
+clear
+nvim ~/.config/tmux/tmux.conf
+clear
+clear
+which clear
+fdjsal; 
+ls
+cd ~/projects
+ls
+mkdir 1bilrows-c
+tmux-sessionizer
+echo $TERMINFO
+brew uninstall ghostty
+which ghostty
+rm -r /Applications/ghostty
+rm -r /Applications/Ghostty.app
+cd ~/gits
+git clone https://github.com/ghostty-org/ghostty
+ls
+cd ghostty
+git pull
+git tag
+git checkout v1.2.0
+zig build -Doptimize=ReleaseFast
+zig --version
+brew remove zig
+brew remove zig zls
+ls
+brew search zgi
+brew search zig
+brew install zig@0.14
+zig build -Doptimize=ReleaseFast
+zig@14
+ls
+cd ~/gits/ghostty-1.2.0
+nvim build.zig
+nvim build.zig
+nvim build.zig
+nvim ~/.config/tmux/tmux.conf
+nvim ~/.config/tmux/tmux.conf
+ls
+echo $TERMINFO
+fd ghostty /usr/share/terminfo/
+ls /Applications/Ghostty.app/Contents/Resources/terminfo/67
+ls /Applications/Ghostty.app/Contents/Resources/terminfo/68
+ls /Applications/Ghostty.app/Contents/Resources/terminfo/78
+echo $GHOSTTY_RESOURCES_DIR
+man -M /usr/local/man ncurses
+man -M /usr/local/man clear
+man -M /usr/share/man clear
+which clear
+man -M /usr/local/man
+which clear
+man -M /usr/share/man clear
+man -M /usr/local/man clear
+cd ~/gits/ncurses-6.3
+ls
+cd ~/gits/ghostty
+ls
+zig
+brew install zig@0.14
+brew reinstall zig@0.14
+zig
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast -Dtarget=
+zig build -h
+/opt/homebrew/opt/zig@0.14/bin/zig build -help
+/opt/homebrew/opt/zig@0.14/bin/zig build -helpB=
+/opt/homebrew/opt/zig@0.14/bin/zig build --help
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast -Dapp-runtime=none -Dfont-backend=coretext -Demit-macos-app=true -Drenderer=metal
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\
+xcode-select --print-path\
+/Applications/Xcode.app/Contents/Developer # <-- GOOD
+cd ..
+ls
+rm -r ghostty
+rm -rf ghostty
+curl https://release.files.ghostty.org/VERSION/ghostty-1.2.0.tar.gz -o ghostty.tar.gz
+tar -xvf ghostty.tar.gz
+tar -xf ghostty.tar.gz
+tar xf ghostty.tar.gz
+curl https://release.files.ghostty.org/VERSION/ghostty-1.2.0.tar.gz
+curl https://release.files.ghostty.org/
+curl https://release.files.ghostty.org/1.2.0/
+curl https://release.files.ghostty.org/1.2.0/ghostty-1.2.0.tar.gz
+curl https://release.files.ghostty.org/1.2.0/ghostty-1.2.0.tar.gz -o ghostty-1.2.0.tar.gz
+rm -r ghostty.tar.gz
+tar -xvf ghostty-1.2.0.tar.gz
+cd ghostty-1.2.0
+ls
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast
+nvim build.zig
+/opt/homebrew/opt/zig@0.14/bin/zig build -help
+/opt/homebrew/opt/zig@0.14/bin/zig build --help
+brew install freetype
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast -Dcpu=aarch64 -j8
+cd /Applications/Ghostty.app/Contents/Resources/ghostty/shell-integration/bash/
+ls
+vim bash-preexec.sh
+nvim ghostty.bash
+vim ghostty.bash
+cd ~/gits/ncurses-6.3
+ls
+cd ..
+ls
+rm -r ncurses.tar.gz
+curl https://invisible-island.net/datafiles/current/ncurses.tar.gz -o ncurses.tar.gz
+tar -xvf ncurses.tar.gz
+cd ncurses-6.2
+cd ncurses-6.3
+ls
+make uninstall -j8
+cd ..
+ls
+cd ncurses-6.5-20250927
+ls
+./configure --help
+./configure
+make install
+clear
+ls /usr/local/man.1
+ls /usr/local/man/man1
+pwd
+ls
+make install -j8
+clear
+which clear
+make install.man
+ls /usr/local/share/man/man1
