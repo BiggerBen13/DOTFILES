@@ -1,0 +1,1011 @@
+while [ true ]; do\
+./compile.sh word-printer.c word-printer\
+fi
+while [ true ]; do\
+./compile.sh word-printer.c word-printer\
+done
+word-printer.c word-printer
+./compile word-printer.c word-printer
+ls
+./compile.sh word-printer.c word-printer
+./compile.sh word-printer.c word-printer
+./word-printer
+./compile.sh word-printer.c word-printer
+./word-printer
+man error
+man stdio
+./word-printer
+./compile.sh word-printer.c word-printer
+./compile.sh word-printer.c word-printer
+./word-printer
+./word-printer file
+./compile.sh word-printer.c word-printer
+./word-printer file
+./word-printer word-printer.c
+cat /etc/services
+man fd_t
+man filedesc
+gtty
+cat "meow " >> $(gtty)
+echo "meow " >> $(gtty)
+echo "meow" >> $(gtty)
+echo meow >> /dev/stderr
+man open
+man read
+man read(5)
+man read 5
+man fread
+man read
+man open 2
+nvim
+make compression
+./compression
+./compression -in compression
+lldb compression
+nvim compression.c
+./compression -in compression
+make compression
+./compression
+./compression -in test -out test_compressed
+lldb compression
+ls
+nvim
+make compression
+./compression
+./compression -in compression
+nvim
+make compression
+./compression -in compression
+nvim compression.c
+./compression -in compression -out compressed_compression
+nvim
+./compression -ints
+nvim
+make compression
+./compression
+./compression -in
+./compression -out
+nvim
+nvim
+make compression
+./compression -out compressed_compression
+./compression -out compressed_compression -in compression
+nvim
+nvim
+make run
+make compression
+./compression -in compression -out compressed-compression
+ls
+nvim
+nvim
+cd keyboards/zsa/moonlander/keymaps/biggerben13
+ls
+nvim keymap.c
+ls
+ls
+cd ..
+ls
+cd biggerben13
+ls
+qmk compile -kb zsa/moonlander -km 
+qmk compile -kb zsa/moonlander -km biggerben13 --compiledb
+ls
+nvim
+ls
+ls ..
+ls ../default
+nvim config.h
+ls
+cd ..
+ls
+cd ..
+ls
+nvim keyboard.json
+ls
+nvim matrix.c
+ls
+nvim rules.mk
+ls
+nvim readme.md
+ollama 
+ollama run list
+ollama pull
+ollama list
+killall aerospace
+killall Aerospace
+killall AeroSpace
+ls
+rm -r kernel.elf
+ls build
+nvim src/boot.s
+make all
+make all
+make all
+llvm-objdump build/bin/kernel.elf
+llvm-objdump -d build/bin/kernel.elf
+\:q
+nvim vm.sh
+nvim Makefile
+nvim
+make run
+make run
+make run
+nvim
+make run
+rm ~/.local/stmux-attach
+rm ~/.local/state/nvim/lsp.log
+make run
+make run
+make run
+make run
+make run
+make run
+make all
+make run
+ls
+ls
+ls -l build/bin/kernel.elf
+ld.lld -strip build/bin/kernel.elf
+ld.lld --strip build/bin/kernel.elf
+mmap
+man mmap
+man mman
+man mmap
+man getpagesize
+man pagesize
+pagesize
+man mmap
+ls
+nvim src/boot.s
+clear
+brew --prefix
+cat ~/.config/zsh/zconditionals
+which llvm-objdump
+make run
+nvim
+make all
+make all
+make run
+touch log.h
+nvim log.h
+make log.h
+make run
+nvim
+make run
+cd builder
+ls
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+ls
+cd ..
+cargo new vec-test
+cd vec-test
+mv src/main.rs src/lib.rs
+nvim Cargo.toml
+nvim
+tmux-sessionizer
+nvim
+cd ..
+rm -r vec-test
+cd wgpu-tut
+nvim
+cargo build
+cargo run
+cargo run
+cargo run
+man ncurses
+man time
+man stdtime
+man time.h
+man time_t
+man clock
+nvim start
+./start
+tmux-sessionizer
+tmux-sessionizer
+tmux-sessionizer
+cargo add mio
+cargo add mio --features net os-poll
+cargo add mio --features os-poll/net
+cargo add mio --features os-poll os-poll/net
+cargo add mio --features mio/os-poll os-poll/net
+cargo add mio --features os-poll --features net
+nvim
+ls
+nvim
+nvim
+ls
+cd src
+ls
+nviom
+nvim
+man libcpp
+clear
+nvim
+man make
+make run
+nvim
+make run
+nvim
+cd ..
+cd modern-c
+ls
+mkdir compression
+rm -r kakoune-lsp-v18.2.0-aarch64-apple-darwin.tar.gz MIT COPYING README.asciidoc UNLICENSE
+ls
+rm -r compression
+touch compression.c
+nvim compresstion.c
+nvim
+cd Step1
+ls
+nvim CMakeLists.txt
+pwd
+cd ..
+ls
+cd Step0
+cd Step2
+ls
+nivm Exercise1.cmake
+nvim Exercise1.cmake
+cd ..
+cd Step0
+nvim
+cd Step1
+pwd
+nvim CMakeLists.txt
+ls
+nvim CMakeLists.txt
+nvim CMakeLists.txt
+cd build
+cmake ..
+cd ..
+nvim CMakeLists.txt
+cd build
+cmake ..
+cd ..
+nvim
+cmake ..
+cd build
+cmake ..
+rm -r *
+cmake ..
+ls
+make
+ls Tutorial
+nvim
+ls
+ls
+cd ..
+ls
+cd Tutorial
+ls
+mv TutorialConfig.h.in ..
+cd ..
+ls
+ls
+nvim CMakeLists.txt
+build
+ls
+cd build
+ls
+rm -r *
+cmake ..
+make
+ls
+./Tutorial
+./Tutorial 5
+./Tutorial 3
+./Tutorial -1
+nvim
+ls
+cd ..
+ls
+cd MathFunctions
+ls
+nvim CMakeLists.txt
+cd ..
+ls
+nvim CMakeLists.txt
+cd ..
+ls
+rm -r *
+cp -r ~/gits/CMake/Help/guide/tutorial/Step* .
+ls
+cd step1
+ls
+nvim
+cd ..
+cd step4
+ls
+nvim
+man lldb
+open mandelbrot.ppm
+nvim mandelbrot.ppm
+xxd
+xxd -help
+xxd -d mandelbrot.ppm
+xxd -h
+xxd -d -g 1 mandelbrot.ppm
+xxd -g 1 mandelbrot.ppm
+./build && ./mandelbrot
+clear
+ls
+nvim build
+clang src/boot.s --target=riscv32-unknown-elf -o test
+clang src/boot.s --target=riscv32-unknown-elf -o -c test
+clang src/boot.s --target=riscv32-unknown-elf -c -o test
+nivm
+nvim
+nvim
+clang src/boot.s --target=riscv32-unknown-elf -c -o test
+nvim
+clang src/boot.s --target=riscv32-unknown-elf -c -o test
+llvm-objdump test
+ls
+llvm-objdump -D test 
+nvim src/boot.s
+nvim
+ldd 
+lld
+lld 
+lld --help
+man ld
+lld -Tlinker.ld -Map=kernel.map
+lld -Tlinker.ld -Map=kernel.map test
+ld.lld -Tlinker.ld -Map=kernel.map test
+ld.lld -Tkernel.ld -Map=kernel.map test
+nvim
+ld.lld -Tkernel.ld -Map=kernel.map test
+nvim
+make all
+nvim Makefile
+make all
+nvim
+make all
+nvim Makefile
+make all
+nvim
+make all
+nvim Makefile
+make all
+ls
+ls src
+file src/boot.o
+nvim
+make dirs
+make all
+nvim
+make all
+nvim Makefile
+make run
+ls
+nvim
+nvim
+clangd --version
+which clangd
+ls $(brew --prefix)/opt/llvm/bin
+nvim ~/.config/nvim/lsp/clangd.lua
+nvim
+nvim
+nvim
+nvim
+nvim
+clang --version
+cd ~/.config/nvim/lsp
+ls
+nvim clangd.lua
+cd /Library/Audio/Plug-Ins/HAL
+ls
+sudo killall -9 coreaudiod
+ls
+nvim
+mkdir projects/c-lib
+cd projects/c-lib
+ls
+nvim
+touch arena.c
+nvim arena.c
+proj
+mkdir multiprocessural_programming
+cd multiprocessural_programming
+touch Cargo.toml
+cargo new dining_philosophers
+nvim Cargo.toml
+cargo new dining_philosophers
+ls
+rm -r dining_philosophers
+cargo new dining_philosophers
+nvim
+cargo add rand
+nvim
+cd ..
+cd ..
+ls
+proj
+ls
+mv multiprocessural_programming multiprocessural_programming-rs
+mkdir multiprocessural_programming-c
+cd multiprocessural_programming-
+cd multiprocessural_programming-c
+touch Makefile
+nvim Makefile
+touch philosopher.c
+nvim philosopher.c
+make philosopher
+ls
+./philosopher
+nvim philosopher.c
+nvim philosopher
+nvim philosopher.c
+man pthread
+nvim philosopher
+nvim philosopher.c
+cd ..
+ls
+cd c-lib
+ls
+touch random.h
+nvim random.h
+tmux-sessionizer
+proj
+cargo new concurrent-rust
+tmux-sessionizer
+cd ~/gits
+git clone https://github.com/gunnarmorling/1brc
+cd 1brc
+./mvnw clean verify
+./create_measurements.sh 1000000000
+ls
+file measurements.txt
+mv measurements.txt ~/projects/1bilrows-c
+clear
+nvim
+e ~/.config/tmux/tmux.conf
+nvim ~/.config/tmux/tmux.conf
+clear
+cleaer
+clear
+nvim ~/.config/tmux/tmux.conf
+clear
+clear
+which clear
+fdjsal; 
+ls
+cd ~/projects
+ls
+mkdir 1bilrows-c
+tmux-sessionizer
+echo $TERMINFO
+brew uninstall ghostty
+which ghostty
+rm -r /Applications/ghostty
+rm -r /Applications/Ghostty.app
+cd ~/gits
+git clone https://github.com/ghostty-org/ghostty
+ls
+cd ghostty
+git pull
+git tag
+git checkout v1.2.0
+zig build -Doptimize=ReleaseFast
+zig --version
+brew remove zig
+brew remove zig zls
+ls
+brew search zgi
+brew search zig
+brew install zig@0.14
+zig build -Doptimize=ReleaseFast
+zig@14
+ls
+cd ~/gits/ghostty-1.2.0
+nvim build.zig
+nvim build.zig
+nvim build.zig
+nvim ~/.config/tmux/tmux.conf
+nvim ~/.config/tmux/tmux.conf
+ls
+echo $TERMINFO
+fd ghostty /usr/share/terminfo/
+ls /Applications/Ghostty.app/Contents/Resources/terminfo/67
+ls /Applications/Ghostty.app/Contents/Resources/terminfo/68
+ls /Applications/Ghostty.app/Contents/Resources/terminfo/78
+echo $GHOSTTY_RESOURCES_DIR
+man -M /usr/local/man ncurses
+man -M /usr/local/man clear
+man -M /usr/share/man clear
+which clear
+man -M /usr/local/man
+which clear
+man -M /usr/share/man clear
+man -M /usr/local/man clear
+cd ~/gits/ncurses-6.3
+ls
+cd ~/gits/ghostty
+ls
+zig
+brew install zig@0.14
+brew reinstall zig@0.14
+zig
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast -Dtarget=
+zig build -h
+/opt/homebrew/opt/zig@0.14/bin/zig build -help
+/opt/homebrew/opt/zig@0.14/bin/zig build -helpB=
+/opt/homebrew/opt/zig@0.14/bin/zig build --help
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast -Dapp-runtime=none -Dfont-backend=coretext -Demit-macos-app=true -Drenderer=metal
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\
+xcode-select --print-path\
+/Applications/Xcode.app/Contents/Developer # <-- GOOD
+cd ..
+ls
+rm -r ghostty
+rm -rf ghostty
+curl https://release.files.ghostty.org/VERSION/ghostty-1.2.0.tar.gz -o ghostty.tar.gz
+tar -xvf ghostty.tar.gz
+tar -xf ghostty.tar.gz
+tar xf ghostty.tar.gz
+curl https://release.files.ghostty.org/VERSION/ghostty-1.2.0.tar.gz
+curl https://release.files.ghostty.org/
+curl https://release.files.ghostty.org/1.2.0/
+curl https://release.files.ghostty.org/1.2.0/ghostty-1.2.0.tar.gz
+curl https://release.files.ghostty.org/1.2.0/ghostty-1.2.0.tar.gz -o ghostty-1.2.0.tar.gz
+rm -r ghostty.tar.gz
+tar -xvf ghostty-1.2.0.tar.gz
+cd ghostty-1.2.0
+ls
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast
+nvim build.zig
+/opt/homebrew/opt/zig@0.14/bin/zig build -help
+/opt/homebrew/opt/zig@0.14/bin/zig build --help
+brew install freetype
+/opt/homebrew/opt/zig@0.14/bin/zig build -Doptimize=ReleaseFast -Dcpu=aarch64 -j8
+cd /Applications/Ghostty.app/Contents/Resources/ghostty/shell-integration/bash/
+ls
+vim bash-preexec.sh
+nvim ghostty.bash
+vim ghostty.bash
+cd ~/gits/ncurses-6.3
+ls
+cd ..
+ls
+rm -r ncurses.tar.gz
+curl https://invisible-island.net/datafiles/current/ncurses.tar.gz -o ncurses.tar.gz
+tar -xvf ncurses.tar.gz
+cd ncurses-6.2
+cd ncurses-6.3
+ls
+make uninstall -j8
+cd ..
+ls
+cd ncurses-6.5-20250927
+ls
+./configure --help
+./configure
+make install
+clear
+ls /usr/local/man.1
+ls /usr/local/man/man1
+pwd
+ls
+make install -j8
+clear
+which clear
+make install.man
+ls /usr/local/share/man/man1
+echo $TERMINFO
+clear
+which clear
+clear
+man clear
+ls
+clear
+echo $TERMINFO
+echo $TERMINFO
+fd ghostty /usr/share/terminfo
+cd ~/gits/ncurses-6.5-20250927
+ls
+make uninstall
+make uninstall -j8
+make install -j8
+fd ghostty /usr/local/share/terminfo/
+fd tmux /usr/local/share/terminfo/
+cd ~/dotfiles/
+ls
+nvim .env
+infocmp -x xterm-ghostty 
+tix
+tic
+infocmp -x xterm-ghostty | tic -x -
+ls
+pwd
+clear
+pwd
+cd ~/gits/ncurses-6.5-20250927
+ls
+make uninstall
+./configure
+nvim INSTALL
+nvim Makefile
+man INSTALL
+man INSTALL
+vim INSTALL
+ls
+make install -j8
+which infocmp
+man infocmp
+cp /Applications/Ghostty.app/Contents/Resources/terminfo/78/xterm-ghostty /usr/local/share/terminfo/78/xterm-ghostty
+\:q
+which clear
+otool -l /usr/local/bin/clear
+file /usr/local/bin/clear
+ls -la /usr/local/bin/
+ls /
+ls /usr/bin
+ls -la /usr/bin
+/usr/bin/clear
+brew remove clear
+man clear
+man clear
+man clear
+cd ~/gits
+ls
+cd ncurses-6.3
+ls
+man clear
+git status
+ls
+curl https://invisible-island.net/datafiles/current/tack.tar.gz -o ../ncurses.tar.gc
+ls
+cd ..
+ls
+rm -r ncurses-6.3
+man curl
+curl https://invisible-island.net/datafiles/current/tack.tar.gz -o ncurses-dev.tar.gz
+ls
+tar -xvf ncurses-dev.tar.gz
+ls
+rm -r ncurses.tar.gc
+mv tack-1.11-20250503 ncurses-dev
+cd ncurses-dev
+ls
+man tack
+ls
+cd ..
+s
+ls
+rm -r ncurses-dev.tar.gz ncurses-dev
+curl https://invisible-island.net/datafiles/current/ncurses.tar.gz -o ncurses-dev.tar.gz
+man tar
+tar -xvf ncurses-dev.tar.gz -C ncurses-dev --strip-components=1
+mkdir ncurses-dev
+tar -xvf ncurses-dev.tar.gz -C ncurses-dev --strip-components=1
+ls
+cd ncurses-dev
+ls
+git 
+git status
+git status
+clear
+ls
+cd ..
+ls
+rm -r ncurses-dev*
+ls
+curl https://invisible-island.net/datafiles/release/ncurses.tar.gz -o ncurses.tar.gc
+mv ncurses.tar.gz
+mv ncurses.tar.gc ncurses.tar.gz
+tar -xvf ncurses.tar.gz
+cd ncurses-6.3/
+ls
+nvim README
+./configure --help
+ls -la /usr/local/bin | grep biggerben
+man ls
+ls -p
+ls -l
+ls -l /usr/local/bin
+ls -p /usr/local/bin
+ls -lL /usr/local/bin
+ls -lL /usr/local/bin | grep biggerben
+ls -lL /usr/local/bin | grep "Jun 30"
+./configure
+make uninstall
+man clear
+cd ..
+ls
+ls
+cd ncurses-6.3
+ls
+nvim INSTALL
+curl https://invisible-island.net/datafiles/release/tack.tar.gz | tar -xv
+ls
+mv tack-1.11 tack
+nvim configure
+./configure
+make install.includes install.libs install.tack install.ncurses install.c++ install.man install.data install.panel
+make install.includes install.libs install.tack install.ncurses install.man install.data install.panel
+make install.includes install.libs install.tack install.ncurses install.man install.panel
+clear
+which clear
+make install.progs -j8
+clear
+which clear
+man clear
+man -k clear
+echo $MANPATH
+fd clear /usr/local/share/man
+nvim /usr/local/share/man/man1/clear.1
+man --help
+man -f /usr/local/share/man/man1/clear
+man -l /usr/local/share/man/man1/clear
+man man
+man -M /usr/local/share/man clear
+man terminfo
+ls /usr/share/terminfo
+fd tmux /usr/share/terminfo
+echo $TERMINFO
+ls /Applications/Ghostty.app/Contents/terminfo
+ls /Applications/Ghostty.app/Contents/Resources/terminfo
+fd tmux /Applications/Ghostty.app/Contents/Resources/terminfo
+fd ghostty /Applications/Ghostty.app/Contents/Resources/terminfo
+tree /Applications/Ghostty.app/Contents/Resources/terminfo
+ls
+cd ~/gits/ncurses-6.3
+ls
+nvim README
+nvim INSTALL
+nvim
+touch main.c
+nvim main.c
+git init
+mkdir src
+mv main.c src
+touch Makefile
+nvim
+nvim Makefile
+make all
+ls
+ls build
+ls src
+nvim
+make all
+ls
+ls build
+ls build
+nvim
+make all
+ls build
+ls
+ls src
+nvim src/main.c
+make
+make 1bilrows
+make OBJ
+make all
+nvim
+make all
+find src -name "*.c"
+nvim Makefile
+make all
+nvim Makefile
+make all
+rsync -a --exclude '*' --include '*/' "src" "build"
+ls
+ls build
+rsync -a --include '*/' --exclude '*' "src" "build"
+ls
+ls build
+nvim Makefile
+make
+make all
+ls
+ls build
+nvim
+make all
+nvim
+make all
+ls
+ls build
+nvim 1bilrows
+man ln
+nvim
+make all
+ls build
+./build/1bilrows
+file build/1bilrows
+nvim
+nvim
+make all
+nvim
+make all
+nvim
+make all
+rm -r build/1bilrows
+nvim
+build
+make
+ls
+make all
+nvim
+make all
+nvim
+make all
+ls build
+ldd
+lld
+ld
+man ld
+nvim 
+make all
+nvim
+make all
+rm -r build
+make all
+nvim
+make all
+ld.lld
+nvim Makefile
+make all
+fnvim
+nvim
+man lld
+man ld.lld
+man ld
+which ld
+ld
+ld build/src/* test
+ls
+mkdir build
+build
+nvim build
+nvim
+make
+make all
+nvim Makefile
+make all
+nvim
+man 5 socket
+man printf
+man 3 printf
+nvim
+make
+make all
+make 1bilrows_native
+nvim
+make bin
+nvim
+make
+make all
+nvim
+make bin
+cd ..
+nvim cgame
+ls
+cd c3dgame
+ls
+git status
+cd ..
+ls
+nvim
+nvim
+cd ..
+s
+ls
+proj
+cd 1bilrows-c
+nvim Makefile
+make all
+nvim
+make all
+llvm-strip
+nvim
+make all
+nvim
+make all
+ls
+ls build
+file build/1bilrows
+objdump build/1bilrows
+objdump -D build/1bilrows
+ls -l build/1bilrows
+nvim
+less measurements.txt
+nvim
+nvim
+make all
+ls
+nvim Makefile
+rm -r -c
+rm "-c"
+ls
+rm '\-c'
+ls
+rm \-c
+ls
+open .
+bear -- make all
+nvim
+make all
+nvim
+bear -- make all
+nvim
+tmux-sessionizer
+cd ..
+mkdir event-monitor
+cd event-monitor
+touch main.m
+nvim main.m
+rm -r main.m
+curl -O https://download.swift.org/swiftly/darwin/swiftly.pkg && \\
+installer -pkg swiftly.pkg -target CurrentUserHomeDirectory && \\
+~/.swiftly/bin/swiftly init --quiet-shell-followup && \\
+. "${SWIFTLY_HOME_DIR:-$HOME/.swiftly}/env.sh" && \\
+hash -r\
+
+swift package init --name MyCli --type executable
+ls
+nvim
+nvim
+nvim
+nvim
+clear
+which clear
+clear
+man clang
+ls ~/.local/share/nvim
+ls
+cat compile_commands.json
+cd ~/.local/share/nvim
+ls
+cd lazy
+ls
+cd nvim-treesitter
+ls
+ls
+nvim
+nvim
+man rsync
+man rsync
+man 5 rsync
+man 1 rsync
+man ld
+strip
+man strip
+nvim
+nvim Makefile
+make all
+nvim
+make
+make all
+nvim Makefile
+man lines
+man 2 lines
+nvim ~/.config/nvim
+nvim ~/.config/nvim
+cd ~/.config/nvim/
+nvim
+nvim
+ls
+mkdir lua/util
+cd lua/util
+nvim
+clear
+clear
+echo $TERMINFO
+echo $TERM
+cd ~/.config/ghostty/
+nvim config
+nvim
+nvim
+man -M /usr/local/man clear
+man -M /usr/share/man clear
+clear --help

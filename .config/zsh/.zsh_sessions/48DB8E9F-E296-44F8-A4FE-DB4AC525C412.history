@@ -1,0 +1,1000 @@
+cargo new smart-pointers
+tmux-sessionizer
+clear
+ls
+nvim ~/.config/aerospace/aerospace.toml
+killall aerospace
+aerospace 
+aerospace reload-config
+ls
+nvim ~/.config/ghostty/config
+ls
+nvim ~/.config/ghostty/config
+ls
+nvim
+ghostty +list-themes
+nvim ~/.config/ghostty/config
+ls
+nvim
+ghostty +list-themes
+nvim ~/.config/ghostty/config
+nvim
+ls
+nvim
+nvim ~/.config/nvim/lua/plugins/colorscheme.lua
+nvim
+nvim
+nvim
+nvim
+nvim
+tmux
+nvim
+nvim
+nvim
+nvim ~/.config/ghostty/config
+nvim ~/.config/tmux/tmux.conf
+cd ~/.local/state/nvim/kanagawa
+ls
+nvim dragon_compiled.lua
+cd ..
+ls
+cd lazy
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd share
+ls
+cd nvim
+ls
+cd lazy
+ls
+cd neovim-ayu
+ls
+cd colors
+ls
+nvim ayu.lua
+ls
+nvim ayu-dark.lua
+ls
+cd ..
+ls
+cd lua
+ls
+nvim ayu/init.lua
+nvim 
+nvim
+cd ~/.config/nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+man tmux
+tmux a
+nvim Makefile
+make
+make dirs
+make
+ls build/obj
+ls
+ls src
+nvim Makefile
+make dirs
+ls 
+ls build/obj
+ls
+ls build/obj
+cd ..
+nvim
+cd mkgame
+nvim Makefile
+cd ..
+nvim
+cd cdgame
+ls
+ls build
+cd ../mkgame
+nvim
+make dirs
+ls build
+rm -r build/obj
+cd ..
+nvim
+nvim
+make dirs
+cd mkgame
+make dirs
+ls build
+nvim Makefile
+make 
+nvim
+make
+makenvim
+nvim
+make
+nvim
+make
+nvim Makefile
+make
+nvim
+make
+nvim
+make mkgame
+ls
+ls build/mkgame
+./build/mkgame
+man strftime
+ls
+nvim
+nvim ~/.config/ghostty/config
+cd $HOME
+ls
+cd $HOME
+cd .config/nvim
+nvim
+nvim
+nvim ~/.config/ghostty/config
+nvim ~/personal/finance/ledger.dat
+ls
+ls
+proj
+cd mkgame
+ls
+make
+ls build
+nvim src
+mkdir ~/uni-notes
+cd ~/uni-notes
+man clang
+make
+pwd
+cd ..
+ls
+pwd
+cd exercises
+pdflatex main.tex
+nvim
+pdflatex main.tex
+pdflatex main.tex
+open main.pdf
+open main.pdf
+pdflatex main.tex
+open main.pdf
+open main.pdf
+pdflatex main.tex
+open main.pdf
+pdflatex main.tex
+open main.pdf
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+open main.pd
+open main.pdf
+pdflatex main.tex
+open main.
+open main.pdf
+pdflatex main.tex
+open main.pdf
+open main.pdf
+pdflatex main.tex
+pdflatex main.tex
+open main.pdf
+pdflatex main.tex
+pdflatex main.tex
+pdflatex main.tex
+open main.pdf
+pdflatex main.tex
+open main.pdf
+open main.pdf
+pdflatex main.tex
+open main.pdf
+open main.pdf
+pdflatex main.tex
+open main.pdf
+pdflatex main.tex
+open main.pdf
+pdflatex main.tex
+pdflatex main.tex
+open main.pdf
+typst main.typ
+typst --help
+typst compile main.typ -o output
+typst compile main.typ --o output
+typst compile main.typ --help
+typst compile main.typ output.pdf
+open output.pdf
+nvim main.typ
+typst compile main.typ output.pdf
+typst compile main.typ output.pdf
+open output.pdf
+open output.pdf
+typst compile main.typ output.pdf
+open output.pdf
+typst compile main.typ output.pdf
+open output.pdf
+typst compile main.typ output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+typst compile main.typ output.pdf && open output.pdf
+cargo install typst-cli
+typst watch main.typ
+emacs
+\:q
+	emacs-30.2 help
+	emacs-30.2 --help
+emacsclient --help
+emacsclient
+brew --help
+brew service
+man brew
+brew services start emacs-plus
+emacs-client --help
+emacsclient --help
+emacs -t
+emacs --tty
+emacs
+clear
+clear
+find ~/Downloads -name pdf
+find ~/Downloads -name *pdf
+find ~/Downloads -name "*pdf"
+find ~/Downloads -name "*pdf"
+cp ~/Downloads/progit.pdf ~/ebooks/progit.pdf
+cd ~/linux
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+rm -r linux
+rm -rf linux
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+ls
+cd linux
+cloc .
+git log --graph
+clear
+cd ~/uni-notes/exercises/git-practice/ci-testing-ex
+ls
+./src/example.py
+python3 ./src/example.py
+python3 ./src/example.py
+mkdir test
+touch test/test_example_{add,multiply,subtract}.py
+ls test
+touch pytest.ini
+nvim pytest.ini
+pip install pytest
+pip3 install pytest
+pip3 install --upgrade pip
+pwd
+pytest
+nvim ~/dotfiles/.env
+cd ~/personal/finance
+nvim ledger.dat
+pwd
+ls
+rm -r late-math-example latex-math-example
+mkdir exercises
+cd exercises
+touch main.tex
+nvim main.tex
+nvim main.
+nvim main.tex
+touch main.typ
+nvim main.
+nvim main.typ
+brew search emacs
+cd ~/uni-notes/exercises
+nvim main.typ
+clear
+zathura ~/ebooks/progit.pdf
+cd ^
+ls
+cd git-practice/test-remote-repo
+git add readme.md
+git commit -m "add readme"
+git push origin/main
+git push
+git push origin main
+touch main.py
+nvim main.py
+git add main.py
+git commit -m "added the most complicated python program ever"
+git push
+git push origin main
+git pull
+git pull origin main
+ls
+cd ..
+ls
+mkdir ci-testing-ex
+cd ci-testing-ex
+git init
+gh repo --help
+brew install python
+brew search python
+pwd
+gh repo --help
+gh repo create --public --source=.
+git remote 
+touch my_math.py
+touch example.py
+mkdir src
+mv my_math.py example.py src
+nvim
+cd /etc
+ls
+nvim zshrc
+nvim zprofile
+vim zprofile
+/usr/libexec/path_helper -s
+/usr/libexec/path_helper
+/usr/libexec/path_helper --help
+/usr/libexec/path_helper -c
+ls paths
+cat paths
+echo $PATH
+gcc
+brew link --help
+brew link gcc
+find /opt/homebrew/bin/ -name "gcc"
+brew link gcc
+find /opt/homebrew/bin/ -name "gcc*"
+gcc-15
+which gcc-15
+gcc-15
+gcc-15 --help
+pkgconfig SDL3 -clfags
+pkgconf
+pkg-config SDL3 -cflags
+make game
+make
+make mkgame
+make mkgame
+ls
+ls build
+bear -- make mkgame
+nvim
+bear -- make mkgame
+bear -- make mkgame
+bear -- make mkgame
+bear -- make mkgame
+make run
+make run
+nvim ~/personal/finance/ledger.dat
+ledger balance -f ~/personal/finance/ledger.dat
+man tmux
+tmux
+cd ~/uni-notes
+tmux new -s uni-notes -c .
+tmux a
+clear
+tmux -s uni-notes -c ~/uni-notes
+tmux new -s uni-notes -c ~/uni-notes
+tmux -s dotfiles -c ~/dotfiles
+tmux new -s dotfiles -c ~/dotfiles
+parallel
+brew install parallele
+brew install parallel
+man parallel
+go
+brew remove go
+which go
+proj
+mkdir httpfromtcp
+tmux-sessionizer
+nvim
+nvim personal/
+chmod ugo=r personal/licenses/soundsource5
+nvim personal/licenses/soundsource5
+clear
+nvim
+ls
+cd ~/projects
+du
+dust
+rm -r 1bilrows-c
+dust
+brew install neomutt
+neomutt
+irssi
+tmux-sessionizer
+tmux new -s "IRC" irssi
+man irssi
+mkdir ~/dotfiles/.config/neomutt
+cd ~/dotfiles
+stow .
+cd .config/neomutt
+touch neomutrc
+rm neomutrc
+touch neomuttrc
+nvim neomuttrc
+neomutt
+neomutt
+ping imaps://xmail.mwn.de
+ping xmail.mwn.de
+nvim neomuttrc
+neomutt
+neomutt
+nvim
+nvim neomuttrc
+neomutt
+nvim neomuttrc
+neomutt
+nvim neomuttrc
+neomutt
+neomutt
+neomutt
+gpg
+man gpg
+gpg --list-keys
+pid 12398
+kill 12398
+gpg --list-keys
+ssh-keygen
+gpg --list-keys
+rm ~/.gnupg/public-keys.d/pubring.db.lock
+gpg --list-keys
+gpg --key-list
+gpg --list-keys
+gpg --key-edit PASS-STORE-KEY
+man gpg
+pass
+brew remove pass
+brew remove pass pass-update
+clear
+gnuls
+ls -G
+ls -G ~
+ls --sort -G ~
+ls -la -G
+ls -la -G ~
+clear
+ls
+man gpg
+gpg --gen-key
+gpg --encrypt neomuttrc
+gpg --symmetric --encrypt neomuttrc
+gpg --list-keys
+gpg --delete-keys 86D22857DFD4774BDFDCF07C234059783B80C034
+gpg --delete-secret-keys 86D22857DFD4774BDFDCF07C234059783B80C034
+gpg --delete-secret-keys 1F16C
+gpg --list-keys
+gpg --delete-keys 86D22857DFD4774BDFDCF07C234059783B80C034
+gpg --list-keys
+gpg --sign neomuttrc
+ls
+cat neomuttrc.gpg
+open neomuttrc.gpg
+rm -r neomuttrc.gpg
+gpg --sign --armor --recpient ACED3L28C68C63D66
+gpg --recpient ACED3L28C68C63D66 --sign --armor neomuttrc
+clear
+ls
+neomutt
+clear
+proj
+cd wgweb
+nvim
+cargo init
+nvim
+cargo add tokio
+cargo add tokio --features "tracing,tokio-macros,rt-multi-thread,net,io-std,fs,bytes"
+cargo add tower
+nvim
+nvim
+clear
+nvim
+nvim
+ls
+cd ~/uni-notes
+ls
+cd exercises
+ls
+cd git-practice
+ls
+cd ci-testing-ex
+ls
+nvim
+pytest 
+nvim
+nvim
+clear
+nvim
+tmux-sessionizer
+ls
+proj
+rm -r ncurses-experiments
+mkdir ncurses-game
+cd ncurses-game
+nvim
+touch mian.c
+rm -r mian.c
+touch mian.c
+rm -r mian.c
+toch CMakeLists.txt
+touch CMakeLists.txt
+nvim CMakeLists.txt
+mkdir src
+touch src/CMakeLists.txt
+nvim src/CMakeLists.txt
+rm -r CMakeLists.txt
+touch configure.ac
+nvim configure.ac
+git init
+tmux-sessionizer
+nvim
+nvim personal/
+chmod ugo=r personal/licenses/soundsource5
+nvim personal/licenses/soundsource5
+clear
+nvim
+ls
+cd ~/projects
+du
+dust
+rm -r 1bilrows-c
+dust
+brew install neomutt
+neomutt
+irssi
+tmux-sessionizer
+tmux new -s "IRC" irssi
+man irssi
+mkdir ~/dotfiles/.config/neomutt
+cd ~/dotfiles
+stow .
+cd .config/neomutt
+touch neomutrc
+rm neomutrc
+touch neomuttrc
+nvim neomuttrc
+neomutt
+neomutt
+ping imaps://xmail.mwn.de
+ping xmail.mwn.de
+nvim neomuttrc
+neomutt
+neomutt
+nvim
+nvim neomuttrc
+neomutt
+nvim neomuttrc
+neomutt
+nvim neomuttrc
+neomutt
+neomutt
+neomutt
+gpg
+man gpg
+gpg --list-keys
+pid 12398
+kill 12398
+gpg --list-keys
+ssh-keygen
+gpg --list-keys
+rm ~/.gnupg/public-keys.d/pubring.db.lock
+gpg --list-keys
+gpg --key-list
+gpg --list-keys
+gpg --key-edit PASS-STORE-KEY
+man gpg
+pass
+brew remove pass
+brew remove pass pass-update
+clear
+gnuls
+ls -G
+ls -G ~
+ls --sort -G ~
+ls -la -G
+ls -la -G ~
+clear
+ls
+man gpg
+gpg --gen-key
+gpg --encrypt neomuttrc
+gpg --symmetric --encrypt neomuttrc
+gpg --list-keys
+gpg --delete-keys 86D22857DFD4774BDFDCF07C234059783B80C034
+gpg --delete-secret-keys 86D22857DFD4774BDFDCF07C234059783B80C034
+gpg --delete-secret-keys 1F16C
+gpg --list-keys
+gpg --delete-keys 86D22857DFD4774BDFDCF07C234059783B80C034
+gpg --list-keys
+gpg --sign neomuttrc
+ls
+cat neomuttrc.gpg
+open neomuttrc.gpg
+rm -r neomuttrc.gpg
+gpg --sign --armor --recpient ACED3L28C68C63D66
+gpg --recpient ACED3L28C68C63D66 --sign --armor neomuttrc
+clear
+ls
+neomutt
+clear
+proj
+cd wgweb
+nvim
+cargo init
+nvim
+cargo add tokio
+cargo add tokio --features "tracing,tokio-macros,rt-multi-thread,net,io-std,fs,bytes"
+cargo add tower
+nvim
+nvim
+clear
+nvim
+nvim
+ls
+cd ~/uni-notes
+ls
+cd exercises
+ls
+cd git-practice
+ls
+cd ci-testing-ex
+ls
+nvim
+pytest 
+nvim
+nvim
+clear
+nvim
+tmux-sessionizer
+ls
+proj
+rm -r ncurses-experiments
+mkdir ncurses-game
+cd ncurses-game
+nvim
+touch mian.c
+rm -r mian.c
+touch mian.c
+rm -r mian.c
+toch CMakeLists.txt
+touch CMakeLists.txt
+nvim CMakeLists.txt
+mkdir src
+touch src/CMakeLists.txt
+nvim src/CMakeLists.txt
+rm -r CMakeLists.txt
+touch configure.ac
+nvim configure.ac
+git init
+tmux-sessionizer
+ls
+nvim configure.ac
+ls
+nvim configure.ac
+rm -r src/CMakeLists.txt
+touch Makefile.am
+touch src/Makefile.am
+nvim src/Makefile.am
+git init
+touch src/main.c
+nvim src/main.c
+automake configure
+autoconf configure.ac
+autoconf --install
+autreconf --isntall
+man autoreconf
+man autoconf
+autoreconf --instsall
+autoreconf --install
+nvim
+autoreconf --install
+./configure
+make help
+make
+ls src
+src/ncurses_game
+src/ncurses_game hello how are you
+nvim
+make
+src/ncurses_game hello how are you
+cd ~/ebooks
+mv autotools_a_practitioners_guide\ to\ GNU\ Autoconf,\ Automake,\ and\ Libtool.pdf autotools_a_practitioners_guide_to_gnu_autoconf_automake_and_libtool.pdf
+ls
+zathura modern_c.pdf
+brew search thunderbird
+brewr insatll thunderbird
+brew info thunderbird
+brew install thunderbird
+brew search email
+brew info nmail
+brew info sendemail
+neomutt
+clear
+mailx
+man mailx
+man mailpath
+mailpath
+mail
+man mail
+mailq
+uv
+brew remove python
+which python
+python
+uv python
+uv python install
+nvim ~/.env
+uv --help
+uv init
+ls
+cat README.md
+nvim pyproject.toml
+uv venv
+ls
+ls -la
+cd ..
+rm -r python-test
+mkdir python-test
+cd python-test
+uv init
+ls -la
+git status
+git log
+clear
+ls
+uv --help
+uv add pytorch
+uv add torch
+python --version
+pip3 remove pytest
+pip3 uninstall pytest
+uv
+nvim pyproject.toml
+uv python list
+nvim pyproject.toml
+uv python install 3.13
+uv add torch
+nvim pyproject.toml
+uv add torch
+nvim .python-version
+uv --help
+uv sync
+nvim .python-version
+uv sync
+uv python pin 3.13.8
+rm -r *
+uv init 
+python pin 3.13
+uv python pin 3.13
+uv add torch
+ls
+ls -a
+nvim 
+nvim ~/.config/nvim/lua/core/lsp.lua
+uvx ty
+python
+uv python list
+python3.14
+help
+ls
+clear
+brew install acct
+bc
+man bc
+brew install sqltutor
+sqltutor
+sqlmetal
+which sqlmetal
+brew 
+brew list 
+brew list auto
+brew remvoe sioyek
+brew remove sioyek
+brew remove thunderbird
+brew remove automake
+brew remove autotools
+atool
+brew info atool
+brew remove autoconf
+brew remove libtool
+brew remove --ignore-dependencies libtool
+cd ~gits
+cd ~/gits
+mkdir autotools && cd autotools
+curl https://ftp.gnu.org/gnu/autoconf/autoconf-latest.tar.xz -o autoconf-latest.tar.xz
+tar -xvf autoconf-latest.tar.xz
+cd autoconf-2.72
+./configure && make all check
+./configure
+cd ..
+pwd
+curl https://ftp.gnu.org/gnu/m4/m4-latest.tar.xz -o m4-latest.tar.xz
+tar -xf m4-latest.tar.xz
+cd m4-1.4.20
+./configure && make all check
+make install
+m4
+m4 --version
+cd ..
+cd autoconf-2.72
+./configure && make all check -j8
+make install
+autoconf --version
+cd ..
+pwd
+curl https://ftp.gnu.org/gnu/automake/automake-1.18.tar.xz -o automake-1.18.tar.xz
+tar -xf automake-1.18.tar.xz
+cd automake-1.18
+./configure && make all check -j8
+makei nstall
+make install -j 8
+automake
+clear
+cd ..
+ls
+curl https://www.artfiles.org/gnu.org/libtool/libtool-2.5.4.tar.xz -o libtool-2.5.4.tar.xz
+tar -xf libtool-2.5.4.tar.xz
+cd libtool-2.5.4
+./configure && make all check -j8
+amke install
+make install
+libtool --version
+libtool 
+which libtool
+~/.local/bin/
+ls ~/.local/bin
+make uninstall
+cd ..
+cd automake
+ls
+cd automake-1.18
+make uninstall
+cd ..
+ls
+cd autoconf
+cd autoconf-2.72
+make uninstall
+cd ..
+cd m4
+cd m4-1.4.20
+make uninstall
+brew install m4
+ls
+cd ..
+ls
+brew install automake
+ls
+brew install libtool
+glibtool
+cd ~/proj
+cd ~/projects
+mkdir gnu-autotools
+cd gnu-autotools
+mkdir -p jupiter/src
+touch jupiter/Makefile
+touch jupiter/src/Makefile
+touch jupiter/src/main.c
+cd jupiter
+tmux new -s jupiter-autotools -c ~/projects/gnu-autotools/jupiter
+ls
+clear
+ls
+pwd
+cd ~/projects/ncurses-game
+clear
+ls
+mkdir src
+touch CMakeLists.txt
+nvim CMakeLists.txt
+nvim premake5.lua
+make
+make run
+./bin/Debug/ncurses_game
+neomutt
+cd ~
+cd gigts
+ct gits
+tmux-sessionizer
+tmux-sessionizer
+cd ~/projects
+mkdir python-test
+cd python-test
+uv --help
+tmux-sessionizer
+tmux-sessionizer
+tmux new -s jupiter-autotools -c ~/projects/gnu-autotools/jupiter
+cd ~/gits
+lls
+ls
+git clone --recursive
+git clone --recursive https://github.com/bevyengine/bevy
+sudo xcodebuild -license
+git clone --recursive https://github.com/bevyengine/bevy
+cd bevy
+ls
+cd crates
+ls
+cd bevy_ecs
+ls
+nvim
+cloc .
+ls
+cd src
+cloc .
+ls
+cd ~
+cd gits/bevy
+cloc .
+ls
+cd ~/gits
+cd ~
+mv ~/Downloads/zig-aarch64-macos-0.15.1.tar.xz .
+tar -xv zig-aarch64-macos-0.15.1.tar.xz
+tar -xf zig-aarch64-macos-0.15.1.tar.xz
+ls
+mv zig-* gits
+cd gits
+ls
+cd zig-aarch64-macos-0.15.1
+ls
+cat README.md
+nvim -R README.md
+ls
+zig
+./zig 
+./zig 
+mkdir ~/.local/bin/zig
+mv * ~/.local/bin/zig
+zig
+ls ~/.local/bin
+ls
+cd zig
+cd ..
+ls -la
+nvim ls
+ls
+cd ~/.local/bin
+ls
+zig
+cd zig
+zig
+ls
+man README.md
+nvim -R README.md
+ls
+ls ..
+ls ../..
+mv lib ../../lib/zig
+mv zig ..
+cd ..
+mv mv zig zigg
+mv zig zigg
+mv zigg/zig .
+rm -r zigg
+ls
+zig
+zig
+cd ~
+cd gits
+cd zls
+ls
+git pull
+clear
+git tags
+git tag
+git checkout 0.15.0
+git status
+zig build install
+ls
+/Applications/Anki.app/Contents/MacOS/launcher ; exit;

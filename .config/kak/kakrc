@@ -1,0 +1,17 @@
+# Set colorscheme
+colorscheme gruvbox-dark
+
+# Tab behavior
+set-option global tabstop 4
+set-option global indentwidth 4
+
+# UI-Options
+set-option global ui_options terminal_set_title=true
+
+# Highlighting options
+add-highlighter global/ number-lines -relative -hlcursor
+
+eval %sh{kak-lsp}
+hook global WinSetOption filetype=(rust|c|cpp) %{
+    lsp-enable-window
+}

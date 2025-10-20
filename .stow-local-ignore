@@ -1,5 +1,6 @@
-\.gitignore
-\.gitmodules
-\.git
-\required-packages.md
-\readme.md
+/.gitignore
+/.gitmodules
+/.git
+/required-packages.md
+/readme.md
+
