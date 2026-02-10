@@ -1,0 +1,17 @@
+#!/bin/bash
+BOOK_DIR="$HOME/ebooks/"
+# find books 
+
+pushd "$BOOK_DIR" > /dev/null
+
+BOOKS=$(find "$BOOK_DIR" -mindepth 1 -name "*.pdf")
+
+BOOK=$(printf "%s" "$BOOKS" | fzf)
+
+if [ -z $BOOK ]; then
+    exit 0
+fi
+
+zathura "$BOOK" > /dev/null 2> /dev/null &
+
+popd > /dev/null

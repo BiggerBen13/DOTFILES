@@ -1,0 +1,35 @@
+#!/bin/bash
+
+ORIGINAL_PATH="$PATH"
+
+NEW_PATH=$PATH_ADD
+
+# Shell script path
+NEW_PATH="$HOME/scripts:$NEW_PATH"
+
+# MacOS specific
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # export PATH="/Users/biggerben/Library/Python/3.9/bin:$PATH"
+
+# if brew is installed
+if [ -d "/opt/homebrew" ]; then
+
+    # Replace clang with better clang if available
+    if [ -d "$(/opt/homebrew/bin/brew --prefix)/opt/llvm" ]; then
+        alias clang="$(/opt/homebrew/bin/brew --prefix)/opt/llvm/bin/clang"
+    fi
+
+    if [ -d "$(/opt/homebrew/bin/brew --prefix)/opt/ctags" ]; then
+        alias "ctags"="$(/opt/homebrew/bin/brew --prefix)/opt/ctags/bin/ctags"
+    fi
+
+    # if [ -d "$(/opt/homebrew/bin/brew --prefix)/opt/python" ]; then
+    #     alias "python"="$(/opt/homebrew/bin/brew --prefix)/opt/python/bin/python3"
+    #     alias "python3"="$(/opt/homebrew/bin/brew --prefix)/opt/python/bin/python3"
+    # fi
+fi
+fi
+
+if [[ "$-" == *i* ]]; then
+    export PATH="$NEW_PATH$ORIGINAL_PATH"
+fi

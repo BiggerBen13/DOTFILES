@@ -1,4 +1,4 @@
 # Sets environment variables
-. "$HOME/.env"
+. "$HOME/.uenv"
 
 ZDOTDIR=$HOME/.config/zsh

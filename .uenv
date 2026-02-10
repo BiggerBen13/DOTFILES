@@ -1,0 +1,82 @@
+#!/bin/bash
+
+# Config Directories 
+export XDG_CONFIG_HOME="$HOME/.config"
+export CONFIG_DIR="$HOME/.config"
+export TERMINFO="/usr/local/share/terminfo"
+
+PATH_ADD=""
+
+# MacOS specific
+if [[ "$OSTYPE" == "darwin"* ]]; then
+if [ -d "/opt/homebrew" ]; then
+    export HOMEBREW_PREFIX="/opt/homebrew"
+    export HOMEBREW_CELLAR="/opt/homebrew/Cellar"
+    export HOMEBREW_REPOSITORY="/opt/homebrew"
+
+    export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}"
+
+    PATH_ADD="/opt/homebrew/bin:$PATH_ADD"
+
+    if [ -d "/opt/homebrew/opt/llvm/bin" ]; then
+        PATH_ADD="/opt/homebrew/opt/llvm/bin:$PATH_ADD"
+    fi
+fi
+
+    
+fi
+
+# Add user bin dir
+if [ -d "$HOME/.local/bin" ]; then
+    PATH_ADD="$HOME/.local/bin:$PATH_ADD" 
+fi
+
+# Add odin if odin is installed
+if [ -d "$HOME/gits/Odin" ]; then
+    PATH_ADD="$HOME/gits/Odin:$PATH_ADD"
+fi
+
+# Add bob to path if it's directory exists
+if [ -d "$HOME/.local/share/bob" ]; then
+    PATH_ADD="$HOME/.local/share/bob/nvim-bin:$PATH_ADD"
+fi
+
+# Add deno to path if .deno directory exists
+if [ -d "$HOME/.deno" ]; then
+    PATH_ADD="$HOME/.deno/bin:$PATH_ADD"
+fi
+
+# Add go to path if go directory exists
+if [ -d "$HOME/go" ]; then
+    PATH_ADD="$HOME/go/bin:$PATH_ADD"
+fi
+
+# add zvm if .zvm exists
+if [ -d "$HOME/.zvm" ]; then
+    export ZVM_INSTALL="$HOME/.zvm/self"
+    PATH_ADD="$HOME/.zvm/bin:$PATH_ADD"
+    PATH_ADD="$ZVM_INSTALL:$PATH_ADD"
+fi
+
+# Externally sourced envs
+
+# Add ghcup to path if .ghcup directory exists
+if [ -d "$HOME/.ghcup" ]; then
+    . "$HOME/.ghcup/env"
+fi
+
+# Add elan if present
+if [ -d "$HOME/.elan" ]; then
+    . "$HOME/.elan/env"
+fi
+
+# Add cargo to path if .cargo directory exists
+if [ -d "$HOME/.cargo" ]; then
+    . "$HOME/.cargo/env"
+fi
+
+if [[ "$-" == *i* ]]; then
+    export PATH_ADD="$PATH_ADD"
+else
+    export PATH="$PATH_ADD:$PATH"
+fi
