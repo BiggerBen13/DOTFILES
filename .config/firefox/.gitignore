@@ -2,7 +2,6 @@
 !.gitignore
 
 !user.js
-!prefs.js
 
 !chrome/**
 !chrome/
